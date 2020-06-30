@@ -7,7 +7,7 @@ module YahooAuction
   class Generator < Jekyll::Generator
     def generate(site)
       auction_id = Jekyll.configuration({})['yahoo_auction_id']
-      html = open("https://auctions.yahoo.co.jp/seller/galleriaricho?n=100&sid="+auction_id+"&b=1&s1=end&o1=a&mode=1&anchor=1").read
+      html = open("https://auctions.yahoo.co.jp/seller/"+auction_id+"?n=100&sid="+auction_id+"&b=1&s1=end&o1=a&mode=1&anchor=1").read
       today = Date.parse(Time.at(Time.now.to_i,in: "+09:00").strftime("%Y-%m-%d"))
       items = []
 
