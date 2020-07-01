@@ -6,7 +6,8 @@ layout: page
 title: 本日落札の商品
 ---
 
-<h1>{{site.data.edt}}</h1>
+<h2>{{site.data.edt}}</h2>
+<h3>{{site.data.items.size}}点が出品されています。</h3>
 <div style="display: flex; flex-wrap: wrap;">
   {% for item in site.data.items %}
   <a class="no-mark" target="_blank" rel="noopener" HREF="{{ item.url }}">
