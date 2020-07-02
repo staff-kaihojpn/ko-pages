@@ -24,8 +24,10 @@ email: info@noah-int.com
 description: >- # this means to ignore newlines until "baseurl:"
   長年に渡り東亜細亜の古美術品や工芸品を扱っております<br>
   世界中に美しい品々を届けて参ります
-baseurl: "/ko-pages" # the subpath of your site, e.g. /blog
-url: "staff-kaihojpn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/ko-pages" # the subpath of your site, e.g. /blog
+#url: "staff-kaihojpn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "pages.noah-int.ga" # the base hostname & protocol for your site, e.g. http://example.com
 yahoo_auction_id: kodou_noah
 
 #twitter_username: staff-kaihojpn
